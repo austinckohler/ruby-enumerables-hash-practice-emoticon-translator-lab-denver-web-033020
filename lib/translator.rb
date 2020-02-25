@@ -20,5 +20,5 @@ end
 end
 
 def get_english_meaning(file_path = './lib/emoticons.yml', emoticon)
-  # code goes here
+  load_library
 end
