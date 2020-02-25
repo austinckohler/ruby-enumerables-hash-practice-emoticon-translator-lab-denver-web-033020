@@ -16,7 +16,7 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', emoticon)
     library["get_emoticon"][emoticon]
   else 
     
-  # code goes here
+ end
 end
 
 def get_english_meaning
