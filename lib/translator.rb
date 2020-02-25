@@ -7,6 +7,7 @@ library.each do |m, e|
   result["get_meaning"][e[1]] = m
   result["get_emoticon"][e[0]] = e[1]
 end
+result
 end
 
 def get_japanese_emoticon
