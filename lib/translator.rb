@@ -10,7 +10,8 @@ end
 result
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emoticon)
+  library = YAML.load_file(file, emoticon)
   # code goes here
 end
 
