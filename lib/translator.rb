@@ -3,7 +3,8 @@ require "yaml"
 def load_library(lib)
 library = YAML.load_file(lib)
 result = {"get_meaning" => {}, "get_emoticon" => {}}
-
+library do |m, e| 
+  result 
 end
 
 def get_japanese_emoticon
