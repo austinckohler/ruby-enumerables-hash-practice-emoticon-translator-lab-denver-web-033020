@@ -5,7 +5,8 @@ library = YAML.load_file(lib)
 result = {"get_meaning" => {}, "get_emoticon" => {}}
 library do |m, e| 
   result["get_meaning"][e[1]] = m
-  result["get_emoticon"][m[0]] =
+  result["get_emoticon"][m[0]] = e[1]
+end
 end
 
 def get_japanese_emoticon
